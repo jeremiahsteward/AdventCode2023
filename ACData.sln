@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.7.34202.233
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AC23", "AC23\AC23.csproj", "{4D23E541-BF95-4B1F-8058-E8004D04223E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ACCoreComponents", "ACCoreComponents\ACCoreComponents.csproj", "{523A7F39-5564-4FBC-AA6B-6DC09C103EDE}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{4D23E541-BF95-4B1F-8058-E8004D04223E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4D23E541-BF95-4B1F-8058-E8004D04223E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4D23E541-BF95-4B1F-8058-E8004D04223E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4D23E541-BF95-4B1F-8058-E8004D04223E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{523A7F39-5564-4FBC-AA6B-6DC09C103EDE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{523A7F39-5564-4FBC-AA6B-6DC09C103EDE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{523A7F39-5564-4FBC-AA6B-6DC09C103EDE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{523A7F39-5564-4FBC-AA6B-6DC09C103EDE}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {43813949-FA6F-48F9-990A-DDB145AA5D5F}
+	EndGlobalSection
+EndGlobal
