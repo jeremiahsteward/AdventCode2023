@@ -27,6 +27,32 @@
 
             return data;
         }
+
+        public static List<string> ReadInDataAsListAndString(this string filename, out string oneLine)
+        {
+            List<string> data = new List<string>();
+
+            string rawData = string.Empty;
+            string fullPath = Path.Combine(ExtractionPath, filename);
+
+            if (File.Exists(fullPath))
+            {
+                using (var sr = new StreamReader(fullPath))
+                {
+                    rawData = sr.ReadToEnd();
+                }
+
+                data = rawData.Split("\n", StringSplitOptions.RemoveEmptyEntries).ToList();
+
+                oneLine = rawData;
+            }
+            else
+            {
+                throw new FileNotFoundException($"The File [{filename}] could not be found at [{ExtractionPath}]");
+            }
+
+            return data;
+        }
     }
 
     public static class Helpers
